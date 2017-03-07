@@ -16,6 +16,8 @@ html, body {
   margin: 0;
   padding: 0; }
 
+
+
 section {
   margin-top: 7rem;
   text-align: center; }
@@ -25,9 +27,9 @@ section {
 
 h1 {
   text-align: center;
-  color: white;
+  color: #FAD658;
   font-size: 7rem;
-
+  padding-top: 25px;
  }
 
 h4 {
@@ -65,8 +67,10 @@ h4 {
 
 body {
   background-image: url("../images/darkme.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: static; }
+  background-attachment: fixed;
+}
 
 ul#social {
   display: inline;
@@ -93,9 +97,9 @@ ul#social {
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-right: 1rem;
+    /*margin-right: 1rem;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 1rem;*/
     background: rgba(0, 0, 0, 0.7);
     opacity: 1;
     border-top-left-radius: 10px;
@@ -127,6 +131,9 @@ ul#social {
   border:3px;
   text-shadow: 1px 1px 1px white;
 }
+
+
+
 
 
   /* Header & Navigation

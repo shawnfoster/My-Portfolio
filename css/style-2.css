@@ -63,10 +63,13 @@ h4 {
 
 }*/
 
+
 body {
   background-image: url("../images/darkme.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: static; }
+  background-attachment: fixed;
+}
 
 ul#social {
   display: inline;
